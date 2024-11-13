@@ -1,5 +1,5 @@
 function copyAmount() {
-    const amount = '₹ 6000';
+    const amount = '₹ 6500';
     navigator.clipboard.writeText(amount).then(() => {
         showPopup('copyModal', 'Amount copied to clipboard!');
     }).catch(err => {
@@ -8,7 +8,7 @@ function copyAmount() {
 }
 
 function copyUPI() {
-    const upi = 'ramushil276-1@oksbi';
+    const upi = 'bilamhasen@okaxis';
     navigator.clipboard.writeText(upi).then(() => {
         showPopup('copyModal', 'UPI copied to clipboard!');
     }).catch(err => {
